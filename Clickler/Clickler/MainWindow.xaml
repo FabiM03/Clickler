@@ -7,9 +7,14 @@
         mc:Ignorable="d"
         Title="Clickler" Height="450" Width="800" Loaded="Window_Loaded">
     <Grid>
+        <Image x:Name="hatterkep" HorizontalAlignment="Left" Height="442" VerticalAlignment="Top" Width="807" Source="/hatter1.jpg"/>
+
         <Button x:Name="Klikkk" Content="Nyomj meg" HorizontalAlignment="Center" Margin="0,0,0,0" VerticalAlignment="Center" Height="58" Width="110" Click="Button_Click"/>
         <Label x:Name="Felirat" Content="Kattintások száma:" Margin="0,0,528,339" FontSize="30" HorizontalContentAlignment="Left" HorizontalAlignment="Left" VerticalAlignment="Top"/>
         <Label x:Name="Szamlalo" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Height="50" Width="164" FontSize="30" Margin="260,0,0,0"/>
+        <ComboBox x:Name="kinalat" HorizontalAlignment="Left" Margin="615,95,0,0" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="boltfelirat" Content="Bolt:" HorizontalAlignment="Left" Margin="615,53,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <Button x:Name="megvesz" Content="Megvesz" HorizontalAlignment="Left" Margin="532,85,0,0" VerticalAlignment="Top" Height="41" Width="58" Click="megvesz_Click"/>
 
     </Grid>
 </Window>
